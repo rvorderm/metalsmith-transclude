@@ -1,0 +1,27 @@
+{
+  "name": "metalsmith-transclude",
+  "version": "1.0.0",
+  "description": "Yet another opinionated templating plugin for metalsmith",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvorderm/metalsmith-transclude.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "transclude",
+    "static",
+    "plugin",
+    "template",
+    "html"
+  ],
+  "author": "Ryan Vordermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rvorderm/metalsmith-transclude/issues"
+  },
+  "homepage": "https://github.com/rvorderm/metalsmith-transclude#readme"
+}
