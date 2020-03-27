@@ -23,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/rvorderm/metalsmith-transclude/issues"
   },
-  "homepage": "https://github.com/rvorderm/metalsmith-transclude#readme"
+  "homepage": "https://github.com/rvorderm/metalsmith-transclude#readme",
+  "devDependencies": {
+    "@types/metalsmith": "^2.3.0",
+    "metalsmith": "^2.3.0",
+    "nyc": "^15.0.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.2",
+    "typescript": "^3.8.3"
+  }
 }
