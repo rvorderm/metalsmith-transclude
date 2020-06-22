@@ -4,6 +4,9 @@
   "description": "Yet another opinionated templating plugin for metalsmith",
   "main": "index.js",
   "scripts": {
+    "prepack": "tsc",
+    "build": "tsc",
+    "build-generator": "jison src/transclude.jison -o build/compiler",
     "test": "nyc tape test.js | tap-spec"
   },
   "repository": {
@@ -26,6 +29,7 @@
   "homepage": "https://github.com/rvorderm/metalsmith-transclude#readme",
   "devDependencies": {
     "@types/metalsmith": "^2.3.0",
+    "jison": "^0.4.18",
     "metalsmith": "^2.3.0",
     "nyc": "^15.0.0",
     "tap-spec": "^5.0.0",
